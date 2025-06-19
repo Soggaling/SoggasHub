@@ -1,0 +1,79 @@
+body {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  font-family: 'Segoe UI', sans-serif;
+  color: #fff;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-bottom: 0.5rem;
+  color: #00ffe5;
+}
+
+p {
+  margin-bottom: 1.5rem;
+  color: #ccc;
+}
+
+nav {
+  background-color: #111;
+  padding: 1rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover,
+nav a.active {
+  color: #00ffe5;
+  border-bottom: 2px solid #00ffe5;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 2rem;
+  width: 250px;
+  max-width: 90%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.grid a {
+  background-color: #1f1f1f;
+  padding: 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.3s ease;
+  font-weight: bold;
+}
+
+.grid a:hover {
+  background-color: #00ffe5;
+  color: #000;
+  transform: scale(1.05);
+}
+
+.warning {
+  margin-top: 40px;
+  font-weight: bold;
+  color: #ff4d4d;
+  font-size: 1.2rem;
+}
